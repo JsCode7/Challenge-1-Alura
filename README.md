@@ -10,4 +10,5 @@ Hay varias cosas a mejorar, y hacer más eficiente el código, sin embargo debid
 
 Puedes revisar el proyecto como github pages en <a href ="https://jscode7.github.io/"> este enlace </a>
 
+![Alt Text](https://github.com/JsCode7/jscode7.github.io/blob/main/AluraChallengeI.gif)
 
