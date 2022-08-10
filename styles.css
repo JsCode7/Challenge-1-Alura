@@ -202,6 +202,7 @@ body {
   display: none;
   position: absolute;
   width: 336px;
+  height: 500px;
   left: 10%;
   top: 5%;
   border: 0;
