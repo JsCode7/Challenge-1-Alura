@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge I: Encriptador</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<header>
+  <div class="logo">
+    <img class="vector" src="Vector.png" alt="">
+  </div>
+</header>
+<body>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="text-input"></label>
+        <textarea class="text-input" type="text" id="text-input" name="text-input" placeholder="Ingrese el texto aqui"></textarea>
+        
+      </form>
+      <p class="advertencia-txt"><span class="advertencia-png"><img src="excl.png" alt=""></span>Solo letras minúsculas y sin acentos</p>
+    </section>
+    
+    <div class="buttons">
+      <button class="btn1" type="submit" id="btn-encriptar"><span class="text-btn1">Encriptar</span></button>
+      <button class="btn2" type="submit" id="btn-desencriptar"><span class="text-btn2">Desencriptar</span></button>
+    </div>
+
+    <div class="msg-box">
+      <div id="toggle">
+        <div class="img-msg-box">
+          <img src="imgbox.png" alt="">
+        </div>
+        <div class="msg-nothingf">
+          <p class="txt-msg-nothingf">Ningún mensaje fue encontrado</p>
+          <p class="txt-msg-nothingf2">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </div>
+      <textarea class="msj-encriptado" type="text" id="msj-encriptado" name="msj-encriptado" placeholder="algo"></textarea>
+      <button class="btn3" type="submit" id="btn-copy"><span class="text-btn3">Copiar</span></button>
+      <p class="msj-copied" id="copied">Su texto ha sido copiado</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

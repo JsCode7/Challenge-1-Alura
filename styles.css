@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  position: relative;
+  height: 100%;
+  background: #F3F5FC;
+}
+
+.logo{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
+.vector {
+  position: absolute;
+  left: 36.67%;
+  right: 37.43%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.main {
+  width: 75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 45rem; 
+}
+
+.btn1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #0A3871;
+  border: 0;
+  border-radius: 24px;
+  transition: 0.4s;
+}
+
+.btn1:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #072851;
+  border: 0;
+  border-radius: 24px;
+}
+
+.btn2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  transition: 0.4s;
+}
+
+.btn2:hover {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  background: #ffffff;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+}
+
+.btn3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 10%;
+  top: 80%;
+  background-color: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  transition: 0.4s;
+}
+
+.btn3:hover {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 10%;
+  top: 80%;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.text-btn1 {
+  width: 280px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.text-btn2 {
+  width: 280px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0A3871;
+}
+
+.text-btn3 {
+  width: 288px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0A3871;
+}
+  
+.text-input {
+  position: absolute;
+  width: 577px;
+  height: 400px;
+  left: 240px;
+  top: 168px;
+  border: 0;
+  color: black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: #F3F5FC;
+}
+
+.text-input:focus{
+  outline: none;
+}
+
+.msj-encriptado {
+  display: none;
+  position: absolute;
+  width: 336px;
+  left: 10%;
+  top: 5%;
+  border: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+}
+
+.msg-box {
+  position: relative;
+  width: 420px;
+  height: 48rem;
+  left: 56%;
+  top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.img-msg-box {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  left: 10%;
+  top: 20%;
+}
+
+.msg-nothingf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 336px;
+  height: 122px;
+  left: 10%;
+  top: 60%;
+}
+
+.txt-msg-nothingf {
+  /* Ningún mensaje fue encontrado */
+  width: 336px;
+  height: 58px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.txt-msg-nothingf2 {
+  width: 336px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.msj-copied {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  padding: 24px;
+  width: 336px;
+  height: 67px;
+  left: 26.5%;
+  top: 88%;
+}
+
+.advertencia-txt {
+  position: absolute;
+  top: 88%;
+  left: 15%;
+  font-family: 'Inter';
+}
+
+.advertencia-png {
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;  
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  position:fixed;
+  background-color: rgb(20, 20, 20);
+}
+
+.pie{
+  font-size:15px;
+  color:silver;
+  padding: 1em;
+}
+
+
+/*Medias queries*/
+
+@media only screen and (max-width: 768px) {
+  .buttons {
+    left: 13%;
+  }
+
+  .advertencia-txt {
+    position: absolute;
+    top: 136%;
+    left: 10%;
+    font-family: 'Inter';
+}
+
+  .text-input {
+    position: relative;
+    width: 568px;
+    height: 500px;
+    left: 12%
+  }
+
+  .btn1 {
+    width: 270px;
+  }
+  
+  .text-btn1 {
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+  .btn2 {
+    width: 270px;
+  }
+
+  .msg-box {
+    width: 39rem;
+    height: 10rem;
+    left: -42.5%;
+    top: 53em;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .img-msg-box {
+    display: none;
+  }
+  
+  .txt-msg-nothingf{
+    position: inherit;
+    top: -60%;
+    left: 5rem;
+  }
+  
+  .txt-msg-nothingf2{
+    position: inherit;
+    top: -5%;
+    left: 5.5rem;
+  }
+  
+  .msj-copied{
+    left: 33%;
+    top: 142%;
+  }
+
+  .msj-encriptado {
+    width: 500px;
+    top: 12%;
+  }
+
+  .btn3 {
+    position: relative;
+    left: 23%;
+    top: 110%;
+  }
+}
